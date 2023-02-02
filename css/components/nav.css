@@ -1,0 +1,22 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 8px;
+}
+.nav .nav-item {
+	color: #282b2f;
+	font-family: Rubik;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.nav .nav-item.is-active {
+	color: #009688;
+}
+
+.nav-item:hover {
+	color: #D3D3D3;
+	text-decoration: none;
+}
+

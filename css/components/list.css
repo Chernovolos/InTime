@@ -1,0 +1,73 @@
+.list {
+	list-style: none;
+	color: black;
+	padding: 0;
+}
+
+.list-section > li > a {
+	color: #62a2e0;
+	font-family: Rubik;
+	font-size: 16px;
+	font-weight: 300;
+	text-decoration-line: underline;
+	padding-top: 15px;
+}
+
+.list-section > li > a:hover {
+	color: #D3D3D3;
+}
+
+.list-section > li::before {
+	content: "\2014";
+	display: inline-block;
+	width: 18px;
+	height: 2px;
+}
+
+
+.list-decimal > li {
+	color: #282b2f;
+	font-family: Rubik;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0px 15px;
+	padding-top: 15px;
+	list-style: decimal;
+}
+
+.list-contact > li > a{
+	color: #282b2f;
+	font-family: Rubik;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 22px;
+	padding-left: 0;
+	text-decoration-line: none;
+}
+
+.list-image-phone::before{
+	content: url("../../img/phone.png");
+	width: 34px;
+	height: 26px;
+}
+
+.list-contact > li {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.list-contact > li > a:hover {
+	color: #D3D3D3;
+}
+
+.list-social > li > a::before {
+	content: url(../../img/Slice_7.png);
+}
+
+.list-subtitle {
+	color: #282b2f;
+	font-family: Rubik;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 38px;
+}

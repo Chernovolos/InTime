@@ -1,0 +1,47 @@
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table-title {
+	color: #282b2f;
+	font-family: Rubik;
+	font-size: 22px;
+	text-transform: uppercase;;
+}
+
+.table-headline th {
+	color: #282b2f;
+	text-align: center;
+	font-family: Rubik;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+.table-row td {
+	color: #282b2f;
+	text-align: center;
+	font-family: Rubik;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 20px 0;
+}
+
+.table-row:nth-child(2n+1) {
+	background-color: #f8f8f8;
+}
+
+.table-link {
+	color: #1976d2;
+	font-family: "Rubik - Light Italic";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	text-decoration: underline;
+}
+
+.table-link:hover {
+	color: #D3D3D3;
+}
+

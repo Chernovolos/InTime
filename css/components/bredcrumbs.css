@@ -1,0 +1,30 @@
+.breadcrumbs {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.breadcrumb-item::after {
+   content: '>';
+   margin: 0 5px;
+}
+
+.breadcrumb-item:last-child::after {
+   display: none;
+}
+
+.breadcrumb-item.is-active {
+ 	color: #78909c;
+	font-family: Rubik;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.breadcrumb-link {
+	color: #282b2f;
+  text-decoration: none;
+}
+
+.breadcrumb-link:hover {
+  color: #D3D3D3;
+}

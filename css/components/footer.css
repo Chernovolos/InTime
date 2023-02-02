@@ -1,0 +1,9 @@
+.footer {
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+.list-wrapper {
+	display: flex;
+	justify-content: space-between;
+}

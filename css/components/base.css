@@ -1,0 +1,69 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	background-color: #ffffff;
+	color: #728289;
+}
+
+body {
+	margin: 0;
+}
+
+.container {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+a, .link {
+	display: inline-block;
+}
+
+/*a:hover, .link:hover {
+	color: #465a64;
+} */
+
+
+figure {
+	margin: 0;
+}
+
+p, ul, ol,{
+	margin: 0 0 15px 0;
+}
+
+* + p, * + ul, * + ol, * {
+	margin-top: 0px;	
+}
+
+ul > li > ol,
+ul > li > ul,
+ol > li > ol,
+ol > li > ul {
+	margin: 0;
+}
+li {
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0.67em 0;
+}
+
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6  {
+	margin-top: 0.67em;	
+}
+
+.pt {
+	padding-top: 20px;
+}
+
+.pb {
+	padding-bottom: 15px;
+}
+

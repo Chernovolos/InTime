@@ -1,0 +1,26 @@
+.header {
+	
+}
+
+.header-top {
+	background-color: #f5f8fb;
+	padding-top: 20px;
+}
+
+.header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	background-color: #f5f8fb;
+}
+
+.logo {
+	color: #282b2f;
+	font-family: Rubik;
+	font-size: 32px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.logo-color {
+	color: #009688;
+}
